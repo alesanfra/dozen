@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA49EB64271B86880036D35C /* Dozen WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA49EB63271B86880036D35C /* Dozen WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA49EB69271B86890036D35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA49EB68271B86890036D35C /* Assets.xcassets */; };
+		CA49EB70271B86890036D35C /* Dozen WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA49EB6F271B86890036D35C /* Dozen WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA49EB75271B86890036D35C /* DozenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB74271B86890036D35C /* DozenApp.swift */; };
+		CA49EB77271B86890036D35C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB76271B86890036D35C /* ContentView.swift */; };
+		CA49EB79271B86890036D35C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB78271B86890036D35C /* NotificationController.swift */; };
+		CA49EB7B271B86890036D35C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB7A271B86890036D35C /* NotificationView.swift */; };
+		CA49EB7D271B86890036D35C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB7C271B86890036D35C /* ComplicationController.swift */; };
+		CA49EB7F271B86890036D35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA49EB7E271B86890036D35C /* Assets.xcassets */; };
+		CA49EB82271B86890036D35C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA49EB81271B86890036D35C /* Preview Assets.xcassets */; };
+		CA49EB8E271B86890036D35C /* DozenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB8D271B86890036D35C /* DozenTests.swift */; };
+		CA49EB99271B86890036D35C /* DozenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49EB98271B86890036D35C /* DozenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA49EB65271B86880036D35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA49EB59271B86880036D35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA49EB62271B86880036D35C;
+			remoteInfo = "Dozen WatchKit App";
+		};
+		CA49EB71271B86890036D35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA49EB59271B86880036D35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA49EB6E271B86890036D35C;
+			remoteInfo = "Dozen WatchKit Extension";
+		};
+		CA49EB8A271B86890036D35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA49EB59271B86880036D35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA49EB6E271B86890036D35C;
+			remoteInfo = "Dozen WatchKit Extension";
+		};
+		CA49EB95271B86890036D35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA49EB59271B86880036D35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA49EB62271B86880036D35C;
+			remoteInfo = "Dozen WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA49EBA0271B86890036D35C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA49EB70271B86890036D35C /* Dozen WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EBA4271B86890036D35C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CA49EB64271B86880036D35C /* Dozen WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA49EB5F271B86880036D35C /* Dozen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dozen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA49EB63271B86880036D35C /* Dozen WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dozen WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA49EB68271B86890036D35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA49EB6A271B86890036D35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA49EB6F271B86890036D35C /* Dozen WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dozen WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA49EB74271B86890036D35C /* DozenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DozenApp.swift; sourceTree = "<group>"; };
+		CA49EB76271B86890036D35C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA49EB78271B86890036D35C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CA49EB7A271B86890036D35C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		CA49EB7C271B86890036D35C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CA49EB7E271B86890036D35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA49EB81271B86890036D35C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA49EB83271B86890036D35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA49EB84271B86890036D35C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CA49EB89271B86890036D35C /* DozenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DozenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA49EB8D271B86890036D35C /* DozenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DozenTests.swift; sourceTree = "<group>"; };
+		CA49EB8F271B86890036D35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA49EB94271B86890036D35C /* DozenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DozenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA49EB98271B86890036D35C /* DozenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DozenUITests.swift; sourceTree = "<group>"; };
+		CA49EB9A271B86890036D35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA49EB6C271B86890036D35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB86271B86890036D35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB91271B86890036D35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA49EB58271B86880036D35C = {
+			isa = PBXGroup;
+			children = (
+				CA49EB67271B86880036D35C /* Dozen WatchKit App */,
+				CA49EB73271B86890036D35C /* Dozen WatchKit Extension */,
+				CA49EB8C271B86890036D35C /* DozenTests */,
+				CA49EB97271B86890036D35C /* DozenUITests */,
+				CA49EB60271B86880036D35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA49EB60271B86880036D35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA49EB5F271B86880036D35C /* Dozen.app */,
+				CA49EB63271B86880036D35C /* Dozen WatchKit App.app */,
+				CA49EB6F271B86890036D35C /* Dozen WatchKit Extension.appex */,
+				CA49EB89271B86890036D35C /* DozenTests.xctest */,
+				CA49EB94271B86890036D35C /* DozenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA49EB67271B86880036D35C /* Dozen WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CA49EB68271B86890036D35C /* Assets.xcassets */,
+				CA49EB6A271B86890036D35C /* Info.plist */,
+			);
+			path = "Dozen WatchKit App";
+			sourceTree = "<group>";
+		};
+		CA49EB73271B86890036D35C /* Dozen WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA49EB74271B86890036D35C /* DozenApp.swift */,
+				CA49EB76271B86890036D35C /* ContentView.swift */,
+				CA49EB78271B86890036D35C /* NotificationController.swift */,
+				CA49EB7A271B86890036D35C /* NotificationView.swift */,
+				CA49EB7C271B86890036D35C /* ComplicationController.swift */,
+				CA49EB7E271B86890036D35C /* Assets.xcassets */,
+				CA49EB83271B86890036D35C /* Info.plist */,
+				CA49EB84271B86890036D35C /* PushNotificationPayload.apns */,
+				CA49EB80271B86890036D35C /* Preview Content */,
+			);
+			path = "Dozen WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CA49EB80271B86890036D35C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA49EB81271B86890036D35C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA49EB8C271B86890036D35C /* DozenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA49EB8D271B86890036D35C /* DozenTests.swift */,
+				CA49EB8F271B86890036D35C /* Info.plist */,
+			);
+			path = DozenTests;
+			sourceTree = "<group>";
+		};
+		CA49EB97271B86890036D35C /* DozenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA49EB98271B86890036D35C /* DozenUITests.swift */,
+				CA49EB9A271B86890036D35C /* Info.plist */,
+			);
+			path = DozenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA49EB5E271B86880036D35C /* Dozen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA49EBA5271B86890036D35C /* Build configuration list for PBXNativeTarget "Dozen" */;
+			buildPhases = (
+				CA49EB5D271B86880036D35C /* Resources */,
+				CA49EBA4271B86890036D35C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA49EB66271B86880036D35C /* PBXTargetDependency */,
+			);
+			name = Dozen;
+			productName = Dozen;
+			productReference = CA49EB5F271B86880036D35C /* Dozen.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CA49EB62271B86880036D35C /* Dozen WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA49EBA1271B86890036D35C /* Build configuration list for PBXNativeTarget "Dozen WatchKit App" */;
+			buildPhases = (
+				CA49EB61271B86880036D35C /* Resources */,
+				CA49EBA0271B86890036D35C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA49EB72271B86890036D35C /* PBXTargetDependency */,
+			);
+			name = "Dozen WatchKit App";
+			productName = "Dozen WatchKit App";
+			productReference = CA49EB63271B86880036D35C /* Dozen WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CA49EB6E271B86890036D35C /* Dozen WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA49EB9D271B86890036D35C /* Build configuration list for PBXNativeTarget "Dozen WatchKit Extension" */;
+			buildPhases = (
+				CA49EB6B271B86890036D35C /* Sources */,
+				CA49EB6C271B86890036D35C /* Frameworks */,
+				CA49EB6D271B86890036D35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dozen WatchKit Extension";
+			productName = "Dozen WatchKit Extension";
+			productReference = CA49EB6F271B86890036D35C /* Dozen WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		CA49EB88271B86890036D35C /* DozenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA49EBA8271B86890036D35C /* Build configuration list for PBXNativeTarget "DozenTests" */;
+			buildPhases = (
+				CA49EB85271B86890036D35C /* Sources */,
+				CA49EB86271B86890036D35C /* Frameworks */,
+				CA49EB87271B86890036D35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA49EB8B271B86890036D35C /* PBXTargetDependency */,
+			);
+			name = DozenTests;
+			productName = DozenTests;
+			productReference = CA49EB89271B86890036D35C /* DozenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA49EB93271B86890036D35C /* DozenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA49EBAB271B86890036D35C /* Build configuration list for PBXNativeTarget "DozenUITests" */;
+			buildPhases = (
+				CA49EB90271B86890036D35C /* Sources */,
+				CA49EB91271B86890036D35C /* Frameworks */,
+				CA49EB92271B86890036D35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA49EB96271B86890036D35C /* PBXTargetDependency */,
+			);
+			name = DozenUITests;
+			productName = DozenUITests;
+			productReference = CA49EB94271B86890036D35C /* DozenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA49EB59271B86880036D35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CA49EB5E271B86880036D35C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CA49EB62271B86880036D35C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CA49EB6E271B86890036D35C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CA49EB88271B86890036D35C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CA49EB6E271B86890036D35C;
+					};
+					CA49EB93271B86890036D35C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CA49EB62271B86880036D35C;
+					};
+				};
+			};
+			buildConfigurationList = CA49EB5C271B86880036D35C /* Build configuration list for PBXProject "Dozen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA49EB58271B86880036D35C;
+			productRefGroup = CA49EB60271B86880036D35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA49EB5E271B86880036D35C /* Dozen */,
+				CA49EB62271B86880036D35C /* Dozen WatchKit App */,
+				CA49EB6E271B86890036D35C /* Dozen WatchKit Extension */,
+				CA49EB88271B86890036D35C /* DozenTests */,
+				CA49EB93271B86890036D35C /* DozenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA49EB5D271B86880036D35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB61271B86880036D35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA49EB69271B86890036D35C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB6D271B86890036D35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA49EB82271B86890036D35C /* Preview Assets.xcassets in Resources */,
+				CA49EB7F271B86890036D35C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB87271B86890036D35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB92271B86890036D35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA49EB6B271B86890036D35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA49EB79271B86890036D35C /* NotificationController.swift in Sources */,
+				CA49EB77271B86890036D35C /* ContentView.swift in Sources */,
+				CA49EB7D271B86890036D35C /* ComplicationController.swift in Sources */,
+				CA49EB75271B86890036D35C /* DozenApp.swift in Sources */,
+				CA49EB7B271B86890036D35C /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB85271B86890036D35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA49EB8E271B86890036D35C /* DozenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49EB90271B86890036D35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA49EB99271B86890036D35C /* DozenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA49EB66271B86880036D35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA49EB62271B86880036D35C /* Dozen WatchKit App */;
+			targetProxy = CA49EB65271B86880036D35C /* PBXContainerItemProxy */;
+		};
+		CA49EB72271B86890036D35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA49EB6E271B86890036D35C /* Dozen WatchKit Extension */;
+			targetProxy = CA49EB71271B86890036D35C /* PBXContainerItemProxy */;
+		};
+		CA49EB8B271B86890036D35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA49EB6E271B86890036D35C /* Dozen WatchKit Extension */;
+			targetProxy = CA49EB8A271B86890036D35C /* PBXContainerItemProxy */;
+		};
+		CA49EB96271B86890036D35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA49EB62271B86880036D35C /* Dozen WatchKit App */;
+			targetProxy = CA49EB95271B86890036D35C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA49EB9B271B86890036D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA49EB9C271B86890036D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA49EB9E271B86890036D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dozen WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dozen WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.Dozen.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		CA49EB9F271B86890036D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dozen WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dozen WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.Dozen.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		CA49EBA2271B86890036D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Dozen_WatchKit_Extension;
+				INFOPLIST_FILE = "Dozen WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.Dozen.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		CA49EBA3271B86890036D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Dozen_WatchKit_Extension;
+				INFOPLIST_FILE = "Dozen WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.Dozen.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		CA49EBA6271B86890036D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.Dozen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA49EBA7271B86890036D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.Dozen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA49EBA9271B86890036D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DozenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.DozenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dozen WatchKit Extension.appex/Dozen WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		CA49EBAA271B86890036D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DozenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.DozenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dozen WatchKit Extension.appex/Dozen WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		CA49EBAC271B86890036D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DozenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.DozenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dozen WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		CA49EBAD271B86890036D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DozenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.sanfratello.DozenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dozen WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA49EB5C271B86880036D35C /* Build configuration list for PBXProject "Dozen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA49EB9B271B86890036D35C /* Debug */,
+				CA49EB9C271B86890036D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA49EB9D271B86890036D35C /* Build configuration list for PBXNativeTarget "Dozen WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA49EB9E271B86890036D35C /* Debug */,
+				CA49EB9F271B86890036D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA49EBA1271B86890036D35C /* Build configuration list for PBXNativeTarget "Dozen WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA49EBA2271B86890036D35C /* Debug */,
+				CA49EBA3271B86890036D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA49EBA5271B86890036D35C /* Build configuration list for PBXNativeTarget "Dozen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA49EBA6271B86890036D35C /* Debug */,
+				CA49EBA7271B86890036D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA49EBA8271B86890036D35C /* Build configuration list for PBXNativeTarget "DozenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA49EBA9271B86890036D35C /* Debug */,
+				CA49EBAA271B86890036D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA49EBAB271B86890036D35C /* Build configuration list for PBXNativeTarget "DozenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA49EBAC271B86890036D35C /* Debug */,
+				CA49EBAD271B86890036D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA49EB59271B86880036D35C /* Project object */;
+}
